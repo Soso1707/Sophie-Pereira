@@ -1,0 +1,113 @@
+html {
+      background-color:#ebeced;
+      padding: 0 1em;
+    }
+    body {
+      background-color: #fff;
+      margin: 1em auto;
+      max-width: 50em;
+    }
+    p, ul {
+      font-family: 'Sanchez', serif;
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    :root {
+      --purple: #9f86c0;
+      --dark-purple: #231942;
+    }
+    .1{
+      display: flex;
+      flex-direction: column;
+    }
+    .header {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: #231942;
+      height: 150px;
+    }
+    .titre {
+      width: 32px;
+      height: 32px;
+      margin: 20px;
+    }
+    .2 {
+      align-items: center;
+    }
+    .nom {
+      color: #9f86c0;
+      font-family: 'Montserrat', serif;
+      text-transform: uppercase;
+      font-size: 36px;
+      font-weight: bold;
+    }
+    .apprentie {
+      color: #ffffff;
+      font-family: 'Sanchez', serif;
+      text-transform: uppercase;
+    }
+    .infos {
+      display: flex;
+      flex-direction: row;
+    }
+    .sg {
+      margin: 20px;
+    }
+    .section-gauche {
+      flex: 1;
+       background-color: #9f86c0;
+    }
+    .section-gauche ul {
+      list-style: none;
+      margin-left: -40px;
+      text-transform: capitalize;
+      font-size: 12px;
+    }
+    h2 {
+      text-transform: uppercase;
+      font-size: 0.9em;
+      font-weight: bold;
+      font-family: 'Montserrat', serif;
+      letter-spacing: 2px;
+    }
+    h3 {
+      text-transform: uppercase;
+      font-size: 0.7em;
+      font-family: 'Sanchez', serif;
+      font-weight: normal;
+      letter-spacing: 2px;
+    }
+    h4 {
+      font-family: 'Sanchez', serif;
+      font-weight: normal;
+      font-size: 0.8em;
+      margin-top: -10px;
+      font-style: italic;
+      letter-spacing: 1px;
+    }
+    .section-droite {
+      flex: 2;
+    }
+    .section-droite .sg {
+      margin-left: 50px;
+    }
+    .section-droite ul {
+      margin-left: -20px;
+    }
+    .section-droite h2 {
+      font-weight: bold;
+    }
+    .gpa {
+      margin-top: -15px;
+    }
+    .footer {
+      background-color: var(--dark-purple);
+    }
+    .ps {
+      color: #ffffff;
+    }
